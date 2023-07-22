@@ -23,12 +23,12 @@ class Solution {
 public:
 	Node* cloneGraph(Node* node)
 	{
-		if (node == nullptr)
+		if (node == nullptr) // 널포인트면 그대로 반환
 			return nullptr;
 
-		queue<Node*> que;
-		vector<bool> visit; // 100칸
-		visit.resize(101);
+		queue<Node*> que; // BFS 탐색을 위한 Node*형식의 큐 선언
+		vector<bool> visit;
+		visit.resize(101); // 방문 여부를 100칸짜리 배열에 미리 모두 false로 저장
 
 		Node* start = new Node;
 		start->val = node->val;
@@ -57,6 +57,6 @@ public:
 				mp[temp]->neighbors.push_back(mp[value]); // 이웃만 추가
 			}
 		}
-		return mp[node];
+		return mp[node]; // 맨 처음값 반환 mp[node] = start;
 	}
 };
