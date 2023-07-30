@@ -1,7 +1,11 @@
 # 인하게임개발 스터디
 
 ## ❓ 문제
-
+- 1주차 문제
+    1. https://leetcode.com/problems/insert-interval/
+    2. https://leetcode.com/problems/reverse-linked-list/
+    3. https://leetcode.com/problems/set-matrix-zeroes/
+    4. https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 - 0주차 문제
     1. [https://leetcode.com/problems/two-sum/](https://leetcode.com/problems/two-sum/)
