@@ -3,7 +3,7 @@ public:
     int lengthOfLongestSubstring(string s) {
         if (s.size() == 0)
             return 0;
-        //
+        
         int size = 0;
         int iMax = 1;
         vector<pair<bool, int>> temp(128);
