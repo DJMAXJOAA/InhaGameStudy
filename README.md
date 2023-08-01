@@ -1,6 +1,12 @@
 # 인하게임개발 스터디
 
 ## ❓ 문제
+- 2주차 문제
+    1. https://leetcode.com/problems/maximum-depth-of-binary-tree/
+    2. https://leetcode.com/problems/merge-k-sorted-lists/
+    3. https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+    4. https://leetcode.com/problems/number-of-1-bits/
+
 - 1주차 문제
     1. https://leetcode.com/problems/insert-interval/
     2. https://leetcode.com/problems/reverse-linked-list/
