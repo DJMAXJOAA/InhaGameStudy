@@ -16,7 +16,7 @@ int main()
 	while (n)
 	{
 		result = to_string(i);
-		if (result.find("666") != string::npos) // 문자열에 666이 포함되어있으면 n 하나 감소
+		if (result.find("666") != string::npos) // 문자열에 666이 포함되어있으면 n 하나 감소시킨다
 			n--;
 		i++;
 	}
