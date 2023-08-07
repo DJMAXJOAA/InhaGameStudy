@@ -15,7 +15,7 @@ public:
 			if (iter != Words.end())		// 있으면 nMax 갱신 및 문자열 제거
 			{
 				if (nMax < Words.size())	nMax = Words.size();
-				Words.erase(Words.begin(), ++iter);	// ??제거는 중복된 문자까지??
+				Words.erase(Words.begin(), ++iter);	// 제거는 중복된 문자까지
 				Words.push_back(s[i]);
 			}
 			else
