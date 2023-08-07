@@ -1,6 +1,12 @@
 # 인하게임개발 스터디
 
 ## ❓ 문제
+- 3주차 문제
+    1. https://leetcode.com/problems/coin-change/
+    2. https://leetcode.com/problems/course-schedule/
+    3. https://leetcode.com/problems/merge-intervals/
+    4. https://leetcode.com/problems/linked-list-cycle/
+
 - 2주차 문제
     1. https://leetcode.com/problems/maximum-depth-of-binary-tree/
     2. https://leetcode.com/problems/merge-k-sorted-lists/
