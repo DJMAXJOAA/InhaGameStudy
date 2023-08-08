@@ -1,9 +1,7 @@
 //Time taken: 1 hr 33 m 32 s
-//Runtime
-//122ms
+//Runtime 122ms
 //Beats 47.06 % of users with C++
-//Memory
-//15.52mb
+//Memory 15.52mb
 //Beats 50.65 % of users with C++
 
 class Solution {
