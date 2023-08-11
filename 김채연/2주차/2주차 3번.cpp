@@ -9,7 +9,7 @@ class Solution {
 public:
     int maxProfit(vector<int>& prices) {
         int minPrice = 2147000000, answer = 0;
-        //최소값을 갱신해가면 동시에 최대 이익을 갱신한다. 
+        //최소값을 갱신해가면 동시에 최대 이익을 갱신한다.
         for (int i = 0; i < prices.size(); i++)
         {
             minPrice = min(minPrice, prices[i]);
