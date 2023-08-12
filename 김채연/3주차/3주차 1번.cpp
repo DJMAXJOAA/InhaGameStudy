@@ -7,10 +7,10 @@
 
 class Solution {
 public:
-	int coinChange(vector<int>& coins, int mount) {
+	int coinChange(vector<int>& coins, int amount) {
 		vector<int> dp(amount + 1, 10001); // amount+1 만큼 객체 생성 후 10001로 초기화.
 		int len = coins.size();
-		dp[0] = 0; //일단 0으로?
+		dp[0] = 0; //0을 만드는 건 0이니까 점화식을 위해서 아는건 넣어둠.
 
 		for (int value = 1; value <= amount; ++value) //모든 경우의 수를 생각 (dp를 amount 수 만큼 생성했기 때문)
 		{
