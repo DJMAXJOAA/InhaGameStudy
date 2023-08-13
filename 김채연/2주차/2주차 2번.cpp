@@ -17,12 +17,12 @@ public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
         priority_queue< ListNode*, vector<ListNode*>, Compare> pq;
 
-        for (int i = 0; i < lists.size(); i++) {
+        for (int i = 0; i < lists.size(); i++) { // k 개의 벡터를 모두 우선순위 큐에 삽입.
             if (lists[i] != NULL)
                 pq.push(lists[i]);
         }
 
-        ListNode head(0);
+        ListNode head(0); //첫번째?
         ListNode* cur = &head;
         while (!pq.empty()) {
             cur->next = pq.top();
