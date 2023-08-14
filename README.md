@@ -1,6 +1,12 @@
 # 인하게임개발 스터디
 
 ## ❓ 문제
+- 4주차 문제
+    1. https://leetcode.com/problems/spiral-matrix/
+    2. https://leetcode.com/problems/longest-repeating-character-replacement/
+    3. https://leetcode.com/problems/same-tree/
+    4. https://leetcode.com/problems/top-k-frequent-elements/
+
 - 3주차 문제
     1. https://leetcode.com/problems/coin-change/
     2. https://leetcode.com/problems/course-schedule/
