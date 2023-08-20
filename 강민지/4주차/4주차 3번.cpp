@@ -29,6 +29,6 @@ public:
             right =  isSameTree(p->right, q->right);
         if(right == false)  return false;
 
-        return (left == right) ? true : false; 
+        return true; 
     }
 };
