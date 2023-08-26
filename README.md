@@ -1,6 +1,12 @@
 # 인하게임개발 스터디
 
 ## ❓ 문제
+- 5주차 문제
+    1. https://leetcode.com/problems/contains-duplicate/
+    2. https://leetcode.com/problems/counting-bits/
+    3. https://leetcode.com/problems/longest-increasing-subsequence/
+    4. https://leetcode.com/problems/pacific-atlantic-water-flow/
+       
 - 4주차 문제
     1. https://leetcode.com/problems/spiral-matrix/
     2. https://leetcode.com/problems/longest-repeating-character-replacement/
