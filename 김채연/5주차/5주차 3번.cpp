@@ -8,12 +8,15 @@ class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
 
-        for (int i = 0; i < n; i++) 
+        vector<int> dp;
+        vector<int> arr;
+
+        for (int i = 0; i < nums.size(); i++)
         {
             if (dp[i] == 0)dp[i] = 1;
-            for (int j = 0; j < i; j++) 
+            for (int j = 0; j < i; j++)
             {
-                if (arr[i] > arr[j]) 
+                if (arr[i] > arr[j])
                 {
                     if (dp[i] < dp[j] + 1)  // i 보다 큰 숫자 j가 있을 경우.
                     {
@@ -22,6 +25,7 @@ public:
                 }
             }
         }
+        return dp.size();
 
     }
 };
