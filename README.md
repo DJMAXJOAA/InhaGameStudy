@@ -1,6 +1,12 @@
 # 인하게임개발 스터디
 
 ## ❓ 문제
+- 6주차 문제
+    1. https://leetcode.com/problems/non-overlapping-intervals/
+    2. https://leetcode.com/problems/merge-two-sorted-lists/
+    3. https://leetcode.com/problems/rotate-image/
+    4. https://leetcode.com/problems/minimum-window-substring/
+
 - 5주차 문제
     1. https://leetcode.com/problems/contains-duplicate/
     2. https://leetcode.com/problems/counting-bits/
