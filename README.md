@@ -1,6 +1,12 @@
 # 인하게임개발 스터디
 
 ## ❓ 문제
+- 7주차 문제
+    1. https://leetcode.com/problems/invert-binary-tree/
+    2. https://leetcode.com/problems/find-median-from-data-stream/
+    3. https://leetcode.com/problems/product-of-array-except-self/
+    4. https://leetcode.com/problems/missing-number/
+       
 - 6주차 문제
     1. https://leetcode.com/problems/non-overlapping-intervals/
     2. https://leetcode.com/problems/merge-two-sorted-lists/
