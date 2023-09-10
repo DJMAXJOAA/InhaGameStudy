@@ -1,4 +1,4 @@
-[6주차 1번] / Invert Binary Tree / 5분 / https://leetcode.com/problems/invert-binary-tree/
+[7주차 1번] / Invert Binary Tree / 5분 / https://leetcode.com/problems/invert-binary-tree/
 
 [문제 접근]
 사용 알고리즘 = 트리의 후위 순회
