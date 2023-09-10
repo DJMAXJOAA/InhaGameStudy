@@ -1,4 +1,4 @@
-[7주차 2번] / Invert Binary Tree / 37분 / https://leetcode.com/problems/invert-binary-tree/
+[7주차 2번] / Find Median from Data Stream / 37분 / https://leetcode.com/problems/find-median-from-data-stream/
 
 [문제 접근]
 사용 알고리즘 = 두개의 우선순위 큐로 중앙값 찾기 (최소힙, 최대힙)
