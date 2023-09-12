@@ -1,6 +1,12 @@
 # 인하게임개발 스터디
 
-## ❓ 문제
+## ❓ 문제https://github.com/DJMAXJOAA/InhaGameStudy/blob/main/README.md
+- 8주차 문제
+    1. https://leetcode.com/problems/longest-common-subsequence/
+    2. https://leetcode.com/problems/number-of-islands/
+    3. https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+    4. https://leetcode.com/problems/word-search/
+
 - 7주차 문제
     1. https://leetcode.com/problems/invert-binary-tree/
     2. https://leetcode.com/problems/find-median-from-data-stream/
