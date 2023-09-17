@@ -5,34 +5,32 @@
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
-        int target;
+        sort(nums.begin(), nums.end());
 
-        for (int i = 0; i < nums.size(); i++)
+        for (int i = 0; i + 1 < nums.size(); i++)
         {
-            target = nums[i];
-
-            for (int j = i + 1; j < nums.size(); j++)
-            {
-                if (target == nums[j])
-                    return true;
-            }
+            if (nums[i] == nums[i + 1])
+                return true;
+        }
         }
 
         return false;
     }
 };
 
-class Solution {
+class Solution { //런타임 오버
 public:
     bool containsDuplicate(vector<int>& nums) {
+        int target;
 
-        sort(nums.begin(), nums.end()); //정렬
-
-        for (int i = 0; i < nums.size() - 1; i++)
+        for (int i = 0; i < nums.size(); i++)
         {
-            if (nums[i] == nums[i + 1])
+            target = nums[i];
+
+            for (int j = i + 1; i + 1 <= nums.size(); j++)
             {
-                return true;
+                if (target == nums[j])
+                    return true;
             }
         }
 
