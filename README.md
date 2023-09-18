@@ -1,6 +1,12 @@
 # 인하게임개발 스터디
 
-## ❓ 문제https://github.com/DJMAXJOAA/InhaGameStudy/blob/main/README.md
+## ❓ 문제
+- 9주차 문제
+    1. https://leetcode.com/problems/valid-anagram/
+    2. https://leetcode.com/problems/binary-tree-maximum-path-sum/
+    3. https://leetcode.com/problems/maximum-subarray/
+    4. https://leetcode.com/problems/reverse-bits/
+
 - 8주차 문제
     1. https://leetcode.com/problems/longest-common-subsequence/
     2. https://leetcode.com/problems/number-of-islands/
