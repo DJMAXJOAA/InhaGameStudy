@@ -1,6 +1,12 @@
 # 인하게임개발 스터디
 
 ## ❓ 문제
+- 10주차 문제
+    1. https://leetcode.com/problems/word-break/
+    2. https://leetcode.com/problems/longest-consecutive-sequence/
+    3. https://leetcode.com/problems/reorder-list/
+    4. https://leetcode.com/problems/group-anagrams/
+
 - 9주차 문제
     1. https://leetcode.com/problems/valid-anagram/
     2. https://leetcode.com/problems/binary-tree-maximum-path-sum/
