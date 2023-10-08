@@ -1,3 +1,7 @@
+//모든 데이터를 set에 넣어주고
+
+//제약조건인 O(N) 탐색을 위해, 확인할때마다 erase 해주면서 최댓값을 구한다.
+
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
