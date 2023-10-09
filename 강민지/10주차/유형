@@ -1,0 +1,6 @@
+<Hard>
+1번, 4번 : unordered_map
+3번 : 2개의 Listnode를 이용한 방식 
+
+<Easy>
+2번 : priority_queue
