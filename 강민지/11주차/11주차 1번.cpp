@@ -24,7 +24,7 @@ public:
         {
             int size = q.size();
             vector<int> v;
-            cout << size << endl;
+            
             for(int i = 0; i < size; i++)
             {
                 TreeNode* node = q.front();
