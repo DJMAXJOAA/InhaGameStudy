@@ -1,6 +1,12 @@
 # 인하게임개발 스터디
 
 ## ❓ 문제
+- 12주차 문제
+    1. https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+    2. https://leetcode.com/problems/house-robber/
+    3. https://leetcode.com/problems/valid-palindrome/
+    4. https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
+
 - 11주차 문제
     1. https://leetcode.com/problems/binary-tree-level-order-traversal/
     2. https://leetcode.com/problems/maximum-product-subarray/description/
