@@ -7,9 +7,7 @@ public:
         int mid = (start + end) / 2;
 
         if(nums[start] < nums[end])  
-        {
             return nums[start];
-        }
 
         // 이진 검색
         while(start < end)
