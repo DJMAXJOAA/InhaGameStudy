@@ -159,26 +159,42 @@ DFS를 사용하는 직렬화 및 역직렬화 O(n), O(n)
 
 class Codec {
 public:
+    // 트리를 하나의 문자열로 인코딩합니다. (전위 순회 방식 사용)
     string serialize(TreeNode* root) {
-        if (!root) return "n";
-        return to_string(root->val) + "," + serialize(root->left) + "," + serialize(root->right);
+        if (!root) return "n,";  // 1. 기본 케이스: 노드가 null인 경우 "n,"을 반환합니다.
+
+        // 2. 현재 노드의 값을 직렬화한 후, 왼쪽과 오른쪽 자식을 직렬화합니다.
+        // 전위 순회 방식: (루트, 왼쪽, 오른쪽)
+        return to_string(root->val) + "," + serialize(root->left) + serialize(root->right);
     }
 
+    // 인코드된 데이터를 트리로 디코딩합니다.
     TreeNode* deserialize(string data) {
-        stringstream ss(data);
-        return helper(ss);
+        stringstream ss(data);  // 3. 직렬화된 문자열을 파싱하기 위해 stringstream을 사용합니다.
+
+        // 4. 트리를 구축하기 위해 재귀적인 헬퍼 함수를 호출합니다.
+        return deserializeHelper(ss);
     }
 
-    TreeNode* helper(stringstream& ss) {
+    TreeNode* deserializeHelper(stringstream& ss) {
         string val;
-        getline(ss, val, ',');
-        if (val == "n") return nullptr;
+        getline(ss, val, ',');  // 5. stringstream에서 다음 값을 파싱합니다 (콤마까지).
+
+        if (val == "n") return nullptr;  // 6. 기본 케이스: 파싱된 값이 "n"인 경우 null 포인터를 반환합니다.
+
+        // 7. 파싱된 값을 가진 새로운 TreeNode를 생성합니다.
         TreeNode* root = new TreeNode(stoi(val));
-        root->left = helper(ss);
-        root->right = helper(ss);
+
+        // 8. 왼쪽과 오른쪽 서브트리를 재귀적으로 구축합니다.
+        // (직렬화에서 전위 순회를 사용했으므로, 여기서의 순서도 일치합니다)
+        root->left = deserializeHelper(ss);
+        root->right = deserializeHelper(ss);
+
+        // 9. 서브트리와 함께 구성된 트리 노드를 반환합니다.
         return root;
     }
 };
+
 
 [다른 풀이 방법]
 리팩토링하여 개선된 BFS : O(n), O(n)
