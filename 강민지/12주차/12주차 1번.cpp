@@ -12,9 +12,9 @@ public:
         // 이진 검색
         while(start < end)
         {
-            if(nums[mid] > nums[end])
+            if(nums[mid] > nums[end]) // 오른쪽 탐색
                 start = mid + 1;
-            else
+            else // 왼쪽 탐색
                 end = mid;
             
              mid = (start + end) / 2;
