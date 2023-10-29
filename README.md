@@ -1,6 +1,12 @@
 # 인하게임개발 스터디
 
 ## ❓ 문제
+- 13주차 문제
+    1. https://leetcode.com/problems/subtree-of-another-tree/
+    2. https://leetcode.com/problems/search-in-rotated-sorted-array/
+    3. https://leetcode.com/problems/house-robber-ii/
+    4. https://leetcode.com/problems/longest-palindromic-substring/
+
 - 12주차 문제
     1. https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
     2. https://leetcode.com/problems/house-robber/
