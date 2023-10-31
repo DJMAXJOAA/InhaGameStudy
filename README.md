@@ -1,6 +1,12 @@
 # 인하게임개발 스터디
 
 ## ❓ 문제
+- 14주차 문제
+    1. https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+    2. https://leetcode.com/problems/3sum/
+    3. https://leetcode.com/problems/decode-ways/
+    4. https://leetcode.com/problems/palindromic-substrings/
+
 - 13주차 문제
     1. https://leetcode.com/problems/subtree-of-another-tree/
     2. https://leetcode.com/problems/search-in-rotated-sorted-array/
