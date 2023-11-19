@@ -1,6 +1,12 @@
 # 인하게임개발 스터디
 
 ## ❓ 문제
+- 16주차 문제
+    1. https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+    2. https://leetcode.com/problems/jump-game/
+    3. https://leetcode.com/problems/implement-trie-prefix-tree/
+    4. https://leetcode.com/problems/design-add-and-search-words-data-structure/
+
 - 15주차 문제
     1. https://leetcode.com/problems/validate-binary-search-tree/
     2. https://leetcode.com/problems/container-with-most-water/
