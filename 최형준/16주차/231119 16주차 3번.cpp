@@ -1,15 +1,4 @@
-[16주차 3번] / Implement Trie(Prefix Tree) / https://leetcode.com/problems/implement-trie-prefix-tree/description/
-
-[문제 접근]
-1. 트라이 구현을 위해 노드 구조체 선언
-2. 해시맵으로 문자와 문자를 연결시켜줌
-3. 단어 체크용으로 isEnd 불 변수 추가
-
-Time taken : 46 m 5 s
-Runtime 62ms
-Beats 36.02 % of users with C++
-Memory 42.20MB
-Beats 84.42 % of users with C++
+[16주차 3번] / Implement Trie(Prefix Tree) / https://leetcode.com/problems/implement-trie-prefix-tree/
 
 struct Node
 {
@@ -80,3 +69,11 @@ public:
         return true;
     }
 };
+
+/**
+ * Your Trie object will be instantiated and called as such:
+ * Trie* obj = new Trie();
+ * obj->insert(word);
+ * bool param_2 = obj->search(word);
+ * bool param_3 = obj->startsWith(prefix);
+ */
