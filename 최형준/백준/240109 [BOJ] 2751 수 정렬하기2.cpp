@@ -1,5 +1,5 @@
-// https://www.acmicpc.net/problem/2751
-// 병합 정렬 연습
+[BOJ] 2751 수 정렬하기2 / 실버5 / https://www.acmicpc.net/problem/2751
+병합 정렬 연습
 
 #include <bits/stdc++.h>
 using namespace std;
